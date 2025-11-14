@@ -1,14 +1,15 @@
-### 📖 State Space Model with Dynamic Frequency Cue for Infrared Samll Target Detection
+<div id="top" align="center">
+
+### State Space Model with Dynamic Frequency Cue for Infrared Samll Target Detection
+
+Kuanhong Cheng, Teng Ma, Yubo Wu, and Yachao Wei </br>
+
+[![ISJ](https://img.shields.io/badge/Elsevier-2025.105850-white.svg?style=flat-square&logo=elsevier&logoSize=auto&logoColor=white&labelColor=grey&color=blue)]()
+[![ISJ](https://img.shields.io/badge/Language-Python-white.svg?style=flat-square&logo=python&logoSize=auto&logoColor=white&labelColor=grey&color=b31b1b)](https://www.python.org)
 
 <hr/>
 
-[![](https://img.shields.io/badge/Building-Done-green.svg?style=flat-square)](https://github.com/Fortuneteller6/DFAwareNet) ![](https://img.shields.io/badge/Language-Python-blue.svg?style=flat-square) [![](https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square)](./LICENSE)
-
-> [Paper Link]()  
-> Authors: Teng Ma, Kuanhong Cheng, Yubo Wu, Junhuai Li, Haiyan Jin and Huixin Zhou. <br/>
-> The code and model weights will be made public after the paper is accepted. Thanks for your attention!
-
-<hr/>
+</div>
 
 ### Datasets Prepare
 
@@ -16,7 +17,7 @@
 - NUAA-SIRST dataset is available at [NUAA-SIRST](https://github.com/YimianDai/sirst).
 - NUDT-SIRST dataset is available at [NUDT-SIRST](https://github.com/YeRen123455/Infrared-Small-Target-Detection).
 - DenseSIRST dataset is available at [DenseSIRST](https://github.com/GrokCV/DenseSIRST).
-- We also prepare the txt file for dividing dataset and three datasets, which can be downloaded from [Google Drive]().
+- We also prepare the txt file for dividing dataset and three datasets, which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1bCbrS5B2BWyUjK2Ic0nyreu4wZ9omgpY?usp=sharing).
 
 <hr/>
 
@@ -58,10 +59,10 @@ python visulization.py --base_size 256 --crop_size 256 --st_model IRSTD-1K_DFAwa
 
 |  Methods   |    Data    |  Pd   |  Fa   |  IoU  | F1_Score |  Download   |
 | :--------: | :--------: | :---: | :---: | :---: | :------: | :---------: |
-| DFAwareNet |  IRSTD-1K  | 90.82 | 4.40  | 70.96 |  83.00   | [Weights]() |
-| DFAwareNet | NUAA-SIRST | 99.08 | 1.42  | 79.65 |  88.67   | [Weights]() |
-| DFAwareNet | NUDT-SIRST | 99.06 | 0.61  | 92.22 |  95.95   | [Weights]() |
-| DFAwareNet | DenseSIRST | 90.21 | 10.43 | 69.78 |  82.20   | [Weights]() |
+| DFAwareNet |  IRSTD-1K  | 90.82 | 4.40  | 70.96 |  83.00   | [Weights](https://drive.google.com/drive/folders/1afgXFOdCgFdN9j0UB1Qmo5bq59Ml4uMI?usp=sharing) |
+| DFAwareNet | NUAA-SIRST | 99.08 | 1.42  | 79.65 |  88.67   | [Weights](https://drive.google.com/drive/folders/1muNHEtXmBxy-TFh7EPQHsB7O61k3sqHs?usp=sharing) |
+| DFAwareNet | NUDT-SIRST | 99.06 | 0.61  | 92.22 |  95.95   | [Weights](https://drive.google.com/drive/folders/1ijbmk7h1_YCJu07dRGOiEIDrnsDHdeGv?usp=sharing) |
+| DFAwareNet | DenseSIRST | 90.21 | 10.43 | 69.78 |  82.20   | [Weights](https://drive.google.com/drive/folders/1OcEYBQHQp4pFLoQcHuLQK0IBjew74WjY?usp=sharing) |
 
 <hr/>
 
@@ -75,6 +76,39 @@ If you find the code helpful in your resarch or work, please cite this paper as 
 
 ```
 
+```
+
+If the above article has reference value for your work, our team's other IRSTD works can also serve as references. [MDCENet](https://www.sciencedirect.com/science/article/abs/pii/S1350449524003591) | [HFMNet](https://ieeexplore.ieee.org/abstract/document/10927642)
+```
+@article{MDCENet,
+  title={Mdcenet: Multi-dimensional cross-enhanced network for infrared small target detection},
+  author={Ma, Teng and Cheng, Kuanhong and Chai, Tingting and Prasad, Shitala and Zhao, Dong and Li, Junhuai and Zhou, Huixin},
+  journal={Infrared Physics \& Technology},
+  volume={141},
+  pages={105475},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{HFMNet,
+  title={A Lightweight Feature Enhancement Model for Infrared Small Target Detection}, 
+  author={Cheng, Kuanhong and Ma, Teng and Fei, Rong and Li, Junhuai},
+  journal={IEEE Sensors Journal}, 
+  year={2025},
+  volume={25},
+  number={9},
+  pages={15224-15234}
+}
+
+@article{WaveTD,
+  title={An Wavelet Steered network for efficient infrared small target detection},
+  author={Ma, Teng and Cheng, Kuanhong and Chai, Tingting and Wu, Yubo and Zhou, Huixin},
+  journal={Infrared Physics \& Technology},
+  volume = {148},
+  pages={105850},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
 ### Contact
