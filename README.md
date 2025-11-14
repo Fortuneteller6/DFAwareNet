@@ -78,7 +78,7 @@ If you find the code helpful in your resarch or work, please cite this paper as 
 
 ```
 
-If the above article has reference value for your work, our team's other IRSTD works can also serve as references. [MDCENet](https://www.sciencedirect.com/science/article/abs/pii/S1350449524003591) | [HFMNet](https://ieeexplore.ieee.org/abstract/document/10927642)
+If the above article has reference value for your work, our team's other IRSTD works can also serve as references. [MDCENet](https://www.sciencedirect.com/science/article/abs/pii/S1350449524003591) | [HFMNet](https://ieeexplore.ieee.org/abstract/document/10927642) | [WaveTD](https://linkinghub.elsevier.com/retrieve/pii/S1350449525001434)
 ```
 @article{MDCENet,
   title={Mdcenet: Multi-dimensional cross-enhanced network for infrared small target detection},
