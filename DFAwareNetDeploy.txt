@@ -1,0 +1,12 @@
+IRSTD-1K：
+Train:
+python train.py --base_size 256 --crop_size 256 --epochs 500 --dataset IRSTD-1K --split_method 80_20 --model DFAwareNet --deep_supervision True --train_batch_size 4 --test_batch_size 4 --mode TXT
+
+
+Test:
+
+python test.py --base_size 256 --crop_size 256 --st_model IRSTD-1K_DFAwareNet_03_09_2024_18_05_39_wDS --model_dir IRSTD-1K_DFAwareNet_03_09_2024_18_05_39_wDS/mIoU__DFAwareNet_IRSTD-1K_epoch.pth.tar --dataset IRSTD-1K --split_method 80_20 --model DFAwareNet --deep_supervision True --test_batch_size 1 --mode TXT
+
+
+Visulize your predicts:
+python visulization.py --base_size 256 --crop_size 256 --st_model IRSTD-1K_DFAwareNet_03_09_2024_18_05_39_wDS --model_dir IRSTD-1K_DFAwareNet_03_09_2024_18_05_39_wDS/mIoU__DFAwareNet_IRSTD-1K_epoch.pth.tar --dataset IRSTD-1K --split_method 80_20 --model DFAwareNet --deep_supervision True --test_batch_size 1 --mode TXT 
