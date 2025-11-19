@@ -4,7 +4,7 @@
 
 Kuanhong Cheng, Teng Ma, Yubo Wu, and Yachao Wei </br>
 
-[![ISJ](https://img.shields.io/badge/Elsevier-2025.105850-white.svg?style=flat-square&logo=elsevier&logoSize=auto&logoColor=white&labelColor=grey&color=blue)]()
+[![ISJ](https://img.shields.io/badge/Elsevier-2025.106268-white.svg?style=flat-square&logo=elsevier&logoSize=auto&logoColor=white&labelColor=grey&color=blue)](https://www.sciencedirect.com/science/article/abs/pii/S1350449525005614)
 [![ISJ](https://img.shields.io/badge/Language-Python-white.svg?style=flat-square&logo=python&logoSize=auto&logoColor=white&labelColor=grey&color=b31b1b)](https://www.python.org)
 
 <hr/>
