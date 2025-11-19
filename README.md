@@ -75,7 +75,14 @@ The code of this paper is highly borrowed from [DNANet](https://github.com/YeRen
 If you find the code helpful in your resarch or work, please cite this paper as following.
 
 ```
-
+@article{DFAwareNet,
+  title = {State Space Model with dynamic frequency cue for infrared small target detection},
+  author = {Kuanhong Cheng and Teng Ma and Yubo Wu and Yachao Wei},
+  journal = {Infrared Physics \& Technology},
+  volume = {152},
+  pages = {106268},
+  year = {2026},
+  publisher={Elsevier}
 ```
 
 If the above article has reference value for your work, our team's other IRSTD works can also serve as references. [MDCENet](https://www.sciencedirect.com/science/article/abs/pii/S1350449524003591) | [HFMNet](https://ieeexplore.ieee.org/abstract/document/10927642) | [WaveTD](https://linkinghub.elsevier.com/retrieve/pii/S1350449525001434)
